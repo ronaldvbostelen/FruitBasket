@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitBasket.Api", "FruitBasket.Api\FruitBasket.Api.csproj", "{5A52736E-9922-4EB4-A913-09F6ECEE9D8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitBasket.Core", "FruitBasket.Core\FruitBasket.Core.csproj", "{D8ECE7A4-8E48-4A10-9977-F8E910535045}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitBasket.Infrastructure", "FruitBasket.Infrastructure\FruitBasket.Infrastructure.csproj", "{A017278D-51BC-495E-B18D-958EAF82AFDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D37E57BC-1B83-4211-BA2C-CBAA197FA23C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitBasket.Tests.E2E", "FruitBasket.Tests.E2E\FruitBasket.Tests.E2E.csproj", "{756C5CE4-45DE-4895-9C06-E0DFB7B72DCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitBasket.Tests.Unit", "FruitBasket.Tests.Unit\FruitBasket.Tests.Unit.csproj", "{C72DFCB0-C117-44E0-9818-192C74DEB66F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitBasket.Tests.Integration", "FruitBasket.Tests.Integration\FruitBasket.Tests.Integration.csproj", "{DD6FB790-E9FF-4976-931C-EEF21A129317}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A52736E-9922-4EB4-A913-09F6ECEE9D8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A52736E-9922-4EB4-A913-09F6ECEE9D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A52736E-9922-4EB4-A913-09F6ECEE9D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A52736E-9922-4EB4-A913-09F6ECEE9D8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8ECE7A4-8E48-4A10-9977-F8E910535045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8ECE7A4-8E48-4A10-9977-F8E910535045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8ECE7A4-8E48-4A10-9977-F8E910535045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8ECE7A4-8E48-4A10-9977-F8E910535045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A017278D-51BC-495E-B18D-958EAF82AFDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A017278D-51BC-495E-B18D-958EAF82AFDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A017278D-51BC-495E-B18D-958EAF82AFDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A017278D-51BC-495E-B18D-958EAF82AFDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{756C5CE4-45DE-4895-9C06-E0DFB7B72DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756C5CE4-45DE-4895-9C06-E0DFB7B72DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756C5CE4-45DE-4895-9C06-E0DFB7B72DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756C5CE4-45DE-4895-9C06-E0DFB7B72DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C72DFCB0-C117-44E0-9818-192C74DEB66F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C72DFCB0-C117-44E0-9818-192C74DEB66F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C72DFCB0-C117-44E0-9818-192C74DEB66F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C72DFCB0-C117-44E0-9818-192C74DEB66F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD6FB790-E9FF-4976-931C-EEF21A129317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD6FB790-E9FF-4976-931C-EEF21A129317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD6FB790-E9FF-4976-931C-EEF21A129317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD6FB790-E9FF-4976-931C-EEF21A129317}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{756C5CE4-45DE-4895-9C06-E0DFB7B72DCC} = {D37E57BC-1B83-4211-BA2C-CBAA197FA23C}
+		{C72DFCB0-C117-44E0-9818-192C74DEB66F} = {D37E57BC-1B83-4211-BA2C-CBAA197FA23C}
+		{DD6FB790-E9FF-4976-931C-EEF21A129317} = {D37E57BC-1B83-4211-BA2C-CBAA197FA23C}
+	EndGlobalSection
+EndGlobal

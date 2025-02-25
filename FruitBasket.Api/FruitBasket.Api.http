@@ -1,0 +1,48 @@
+@HostAddress = http://localhost:5154
+
+### PUT Banana
+PUT {{HostAddress}}/api/v1/fruit/banana
+Accept: application/json
+
+### PUT Apple
+PUT {{HostAddress}}/api/v1/fruit/apple
+Content-Type: application/json
+Accept: application/json
+
+{
+  "PurchaseDate": "2022-02-24",
+  "Type": "Elstar"
+}
+
+### PUT Peer (wild card)
+PUT {{HostAddress}}/api/v1/fruit/peer
+Content-Type: application/json
+Accept: application/json
+
+{
+  "PurchaseDate": "2025-02-24"
+}
+
+### DELETE Apple (wild card)
+DELETE {{HostAddress}}/api/v1/fruit/apple
+Accept: application/json
+
+### Get fruit: peer (wild card)
+GET {{HostAddress}}/api/v1/fruit/peer
+Accept: application/json
+
+### Get fruit: banana 
+GET {{HostAddress}}/api/v1/fruit/banana
+Accept: application/json
+
+### Get fruit: apple
+GET {{HostAddress}}/api/v1/fruit/apple
+Accept: application/json
+
+### Get basket
+GET {{HostAddress}}/api/v1/basket
+Accept: application/json
+
+### Delete basket
+DELETE {{HostAddress}}/api/v1/basket
+Accept: application/json
